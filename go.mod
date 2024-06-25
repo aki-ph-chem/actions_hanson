@@ -1,6 +1,6 @@
-module main
+module github.com/aki-ph-chem/actions_hanson
 
-go 1.22.2
+go 1.22.4
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
