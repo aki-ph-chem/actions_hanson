@@ -47,7 +47,7 @@ jobs:
           path: ./actions_hanson
 
       - name: deploy to Github Release
-        run: gh release upload v1.0.0 ./actions_hanson
+        run: gh release upload v1.0.0 ./build.zip
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
